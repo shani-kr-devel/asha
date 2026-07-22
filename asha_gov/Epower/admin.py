@@ -16,10 +16,9 @@ class userP_admin(admin.ModelAdmin):
 
 
 admin.site.register(Epower)
-admin.site.register(ReviewInline)
-admin.site.register(Epdata)
-admin.site.register(storeadmin)
-admin.site.register(userP_admin)
+admin.site.register(UserReview,storeadmin)
+admin.site.register(shope)
+admin.site.register(UserProfile,userP_admin)
 
 
 
